@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+img{
+  width: 50px;
+}
+
+
+
+.main-logo{
+  width: 500px;
+}
+
+footer{
+  background-color: rgb(149, 108, 81);
+  height:200px;
+  width: 100%;
+  bottom:0;
+}
