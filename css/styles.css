@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -12,15 +16,43 @@ img{
   width: 50px;
 }
 
+footer{
+  background-color: rgb(149, 108, 81);
+  height:200px;
+  width: 100%;
+  bottom:0;
+}
+
 
 
 .main-logo{
   width: 500px;
 }
 
-footer{
-  background-color: rgb(149, 108, 81);
-  height:200px;
-  width: 100%;
-  bottom:0;
+.listedClothing{
+  text-align: center;
+  padding: 1%;
+}
+.listedClothingPicture{
+  width: 60%;
+}
+
+/*bare for testing*/
+.col-test{
+  border: 1px solid;
+}
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
 }
