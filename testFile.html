@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <!-- Bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,43 +11,136 @@
         <title>Bn'D Vintage</title>
     </head>
     <body>
+        <!-- Main desktop header -->
         <header>
-            <nav class="header-desktop">
-                <div class="socials">
-                    <ul>
-                        <li><a href="#insta"><img src="src/imageExample.jpg" alt="Instagram"></a></li>
-                        <li><a href=" #facebook"><img src="src/imageExample.jpg" alt="FaceBook"></a></li>
-                        <li><a href="#Snapchat"><img src="src/imageExample.jpg" alt="Snapchat"></a></li>
-                    </ul>
-                </div>
-                <div>
-                    <a><img class="main-logo" src="src/Logo_3.png" alt="Bn'D vintage logo"></a>
-                </div>
-                <div class="desktop-buttons">
-                    <ul>
-                        <li><a href="#søk"><img src="src/forstrrelsesglass.png" alt="søk"></a></li>
-                        <li><a href="#likes"><img src="src/imageExample.jpg" alt="profil"></a></li>
-                        <li><a href="#profil"><img src="src/imageExample.jpg" alt="profil"></a></li>
-                        <li><a href="#handlekurv"><img src="src/handlekurv.png" alt="handlekurv"></a></li>
-                        <li><a href="#omOss"><img src="src/sprsmalstegn.png" alt="mer om oss"></a></li>
-                    </ul>
-                </div>
+        <!-- Desktop navbar  -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <!-- toggler button -->
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#collapse-navbar" class="navbar-toggler"
+                aria-controls="collapse-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Social icons -->
+            <div class="collapse navbar-collapse" id="collapse-navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a href="#instagram" class="nav-link">
+                            <img class="icons" src="src/imageExample.jpg" alt="Instagram">
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#FaceBook" class="nav-link">
+                            <img class="icons" src="src/imageExample.jpg" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#Snapchat" class="nav-link">
+                            <img class="icons" src="src/imageExample.jpg" alt="Snapchat">
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#OmOss" class="nav-link">
+                            <img class="icons" src="src/sprsmalstegn.png" alt="Om oss">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Main logo -->
+            <a href="#main-logo" class="navbar-brand">
+                <img class="d-inline-block align-center main-logo" src="src/Logo_3.png" alt="Bn'D Logo">
+            </a>
+            <!-- Desktop icons -->
+            <div class="collapse navbar-collapse" id="navbar-icons">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a href="#Søk" class="nav-link">
+                            <img class="icons" src="src/imageExample.jpg" alt="Søk">
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#Likes" class="nav-link">
+                            <img class="icons" src="src/imageExample.jpg" alt="Likes">
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#Profil" class="nav-link">
+                            <img class="icons" src="src/imageExample.jpg" alt="Profil">
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#Handlekurv" class="nav-link">
+                            <img class="icons" src="src/imageExample.jpg" alt="Handlekurv">
+                        </a>
+                    </li>
+                </ul>
+            </div>
             </nav>
-        
-            <figure><img></figure>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark genderClothesMenu">
+                <!-- Gender clothing dropdown menu -->
+                <div class="container">
+                    <div class="collapse navbar-collapse" id="collapse-navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="womanClothesDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dame
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="womanClothesDropdown">
+                                    <li><a href="#" class="dropdown-item clothesType">Se alle</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Kjoler og skjørt</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">T-skjorter</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Skjorter og bluser</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Hoodies og gensere</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Bukser og shorts</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Jakker</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Sko</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Accessories</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="unisexClothesDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Unisex
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="unisexClothesDropdown">
+                                    <li><a href="#" class="dropdown-item clothesType">Se alle</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">T-skjorter</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Skjorter og bluser</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Hoodies og gensere</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Bukser og shorts</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Jakker</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Sko</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Accessories</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="manClothesDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Herre
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="manClothesDropdown">
+                                    <li><a href="#" class="dropdown-item clothesType">Se alle</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">T-skjorter</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Skjorter</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Hoodies og gensere</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Bukser og shorts</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Jakker</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Sko</a></li>
+                                    <li><a href="#" class="dropdown-item clothesType">Accessories</a></li>
+                                </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
         </header>
         <section>
-            <nav class="clothing-navigation">
-                <ul>
-                    <li><a href="#Dame">Dame</a></li>
-                    <li><a href="#Herre">Herre</a></li>
-                </ul>
-            </nav>
+
         </section>
         <main>
             <section>
                 <!--Clothing items-->
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-3 col-md-4 col-sm-6 listedClothing">
                         <img class="listedClothingPicture" src="src/16to9imgExample.jpg" alt="picture of clothing">
                         <p class="listedClothingTitle">Epic vintage hoodie</p>
@@ -67,10 +161,14 @@
                         <p class="listedClothingTitle">Epic vintage hoodie</p>
                         <p class="price">1200kr</p>
                     </div>
-                </div>
+                </div> -->
             </section>
         </main>
                     
                     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
     </body>
 </html>
