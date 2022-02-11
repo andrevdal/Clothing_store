@@ -24,15 +24,22 @@ footer{
   position: fixed;
 }
 
-
-
 .main-logo{
   width: 30vw;
+  left:50%;
+  top:50%;
+  transform: -50%, -50%;
 }
-
+.social-icons{
+  float: left;
+}
+.desktop-icons{
+  float: right;
+}
 .icons{
   width: 2vw;
 }
+
 .listedClothing{
   text-align: center;
   padding: 1%;
