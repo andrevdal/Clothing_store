@@ -40,12 +40,22 @@ footer{
   width: 2vw;
 }
 
+.banner{
+  padding: 12%;
+  background-image: url('/src/exampleBanner2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: 5%;
+}
+
 .listedClothing{
   text-align: center;
   padding: 1%;
 }
 .listedClothingPicture{
-  width: 60%;
+  width: 80%;
 }
 
 /*bare for testing*/
